@@ -28,6 +28,18 @@ body {
 
 }
 
+/* Underline the page on the navigation area*/
+
+.contact-active {
+    border: 3px solid whitesmoke;
+    padding: 3px;
+}
+
+.board-active {
+    border: 3px solid whitesmoke;
+    padding: 3px;
+}
+
 /* The header and the logo area*/
 header {
     background-color: #143F6B;
