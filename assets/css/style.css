@@ -1,0 +1,29 @@
+/* The main and secondary font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+
+}
+
+/* To remove the purple underlining and the color */
+a {
+    text-decoration: none;
+    color: #143F6B;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #143F6B;
+}
+
+/* The Global style */
+body {
+    font-family: 'Amaranth', sans-serif;
+    background-color: whitesmoke;
+
+
+}
