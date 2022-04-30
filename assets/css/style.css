@@ -147,11 +147,29 @@ footer {
 
 /* The center box part of the home page */
 .box {
-    height: 500px;
+    height: 600px;
     width: 60%;
     border: 4px solid #143F6B;
     margin: 0 auto;
     margin-top: 175px;
     background-color: whitesmoke;
-    padding: 0;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+
+.box-text {
+    color: whitesmoke;
+    font-size: 30px;
+    background-color: #143F6B;
+    padding: 20px;
+    text-align: center;
+}
+
+.fun-text {
+    color: #FEB139;
+    padding-bottom: 10px;
+}
+
+.home-gif {
+    border: 3px solid #F55353;
 }
