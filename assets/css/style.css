@@ -33,11 +33,13 @@ body {
 .contact-active {
     border: 3px solid whitesmoke;
     padding: 3px;
+    border-radius: 10px;
 }
 
 .board-active {
     border: 3px solid whitesmoke;
     padding: 3px;
+    border-radius: 10px;
 }
 
 /* The header and the logo area*/
@@ -47,8 +49,7 @@ header {
     width: 100%;
 }
 
-h1,
-h2 {
+h1 {
     font-family: 'Amaranth', sans-serif;
     color: #FEB139;
 }
@@ -108,7 +109,7 @@ h2 {
 footer {
     height: 160px;
     background-color: #143F6B;
-    margin-top: 500px;
+    margin-top: 400px;
 
 }
 
@@ -137,7 +138,7 @@ footer {
     font-size: 20px;
     color: #FEB139;
     padding: 1%;
-    margin-top: 10px;
+    margin-top: 5px;
     text-align: center;
 }
 
@@ -175,11 +176,24 @@ footer {
 
 
 /* The introduction video on the home/main page */
+.video-box {
+    height: 540px;
+    width: 80%;
+    margin: 0 auto;
+    border: 5px solid whitesmoke;
+    border-radius: 15px;
+}
+
+.video-box:hover {
+    border: 7px solid#FEB139;
+}
+
 .intro-video {
     height: 500px;
-    width: 80%;
+    width: 95%;
     margin-top: 20px;
     margin-top: 20px;
+    border-radius: 15px;
 }
 
 /* The start button on the main/home page */
@@ -196,4 +210,33 @@ footer {
 .main-start:hover {
     background-color: whitesmoke;
     color: #143F6B;
+}
+
+/* The leaderboard page */
+.leaderboard-main {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 50%;
+    height: 300px;
+    background-color: whitesmoke;
+    border: 3px solid #143F6B;
+}
+
+.leaderboard-box {
+    height: 90px;
+    width: 50%;
+    border: 4px solid #143F6B;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #143F6B;
+    letter-spacing: 2px;
+    text-align: center;
+    border-radius: 10px;
+    color: whitesmoke;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.leaderboard-heading {
+    color: #FEB139;
 }
