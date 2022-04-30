@@ -91,3 +91,44 @@ h2 {
 .navigation {
     line-height: 100px;
 }
+
+/* The footer and copyright */
+footer {
+    height: 160px;
+    background-color: #143F6B;
+    margin-top: 1000px;
+
+}
+
+.social-media {
+    list-style-type: none;
+    text-align: center;
+
+}
+
+.social-media i {
+    margin: 10%;
+    font-size: 300%;
+    color: whitesmoke;
+    padding: 2%;
+    margin-top: 20px;
+    letter-spacing: 75px;
+}
+
+.social-media>li {
+    display: inline-block;
+
+}
+
+.copyright {
+    margin: 2%;
+    font-size: 20px;
+    color: #FEB139;
+    padding: 1%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.copyright i {
+    color: whitesmoke;
+}
