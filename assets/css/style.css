@@ -27,3 +27,62 @@ body {
     background-image: url('../images/\ mainimage.png');
 
 }
+
+/* The header and the logo area*/
+header {
+    background-color: #143F6B;
+    height: 100px;
+    width: 100%;
+}
+
+h1,
+h2 {
+    font-family: 'Amaranth', sans-serif;
+    color: #FEB139;
+}
+
+#logo {
+    float: left;
+    margin-left: 75px;
+    font-size: 400%;
+    height: 150px;
+
+}
+
+#logo a {
+    text-decoration: none;
+    color: inherit;
+    letter-spacing: 5px;
+
+}
+
+#logo a:hover {
+    color: #F55353;
+}
+
+/* The navigation area for other page*/
+.navigation {
+    font-size: 110%;
+    letter-spacing: 3px;
+    margin-right: 20px;
+
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #FEB139;
+}
+
+
+.navigation a:hover {
+    color: #F55353;
+
+}
+
+.navigation li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+    color: rgba(250, 154, 9, 0.74);
+    font-size: 30px;
+}
