@@ -86,3 +86,8 @@ h2 {
     color: rgba(250, 154, 9, 0.74);
     font-size: 30px;
 }
+
+#logo,
+.navigation {
+    line-height: 100px;
+}
