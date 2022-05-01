@@ -241,7 +241,9 @@ footer {
 }
 
 /* The contact form box and sign up */
-.contact-box {
+
+/* The contact box and heading*/
+.contact-main {
     margin: 0 auto;
     margin-top: 100px;
     width: 50%;
@@ -249,3 +251,29 @@ footer {
     background-color: whitesmoke;
     border: 3px solid #143F6B;
 }
+
+.contact-box {
+    height: 140px;
+    width: 50%;
+    border: 4px solid #143F6B;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #143F6B;
+    letter-spacing: 2px;
+    text-align: center;
+    border-radius: 10px;
+    color: whitesmoke;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.contact-heading {
+    color: #FEB139;
+    margin-bottom: 10px;
+}
+
+.contact-heading-text {
+    margin-bottom: 10px;
+}
+
+/* The contact form*/
