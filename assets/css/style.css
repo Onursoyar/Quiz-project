@@ -301,6 +301,7 @@ footer {
     margin-top: 20px;
     border: 3px solid #F55353;
     border-radius: 10px;
+    font-family: 'Amaranth', sans-serif;
 
 }
 
@@ -313,6 +314,7 @@ footer {
     border: 3px solid #F55353;
     border-radius: 10px;
     margin-bottom: 30px;
+    font-family: 'Amaranth', sans-serif;
 
 }
 
@@ -329,10 +331,11 @@ footer {
     border: 5px solid #F55353;
     border-radius: 10px;
     margin-bottom: 30px;
+    font-family: 'Amaranth', sans-serif;
 }
 
 /* The submit button */
-[type="submit"] {
+.submit {
     font-size: 25px;
     margin: 0 auto;
     background-color: inherit;
@@ -342,7 +345,7 @@ footer {
     border-radius: 10px;
 }
 
-[type="submit"]:hover {
+.submit:hover {
     color: #143F6B;
     background-color: whitesmoke;
 }
