@@ -332,6 +332,7 @@ footer {
     border-radius: 10px;
     margin-bottom: 30px;
     font-family: 'Amaranth', sans-serif;
+
 }
 
 /* The submit button */
@@ -348,4 +349,59 @@ footer {
 .submit:hover {
     color: #143F6B;
     background-color: whitesmoke;
+}
+
+/* The quiz topic/category page for the quiz */
+.quizbox-main {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 50%;
+    height: 500px;
+    background-color: whitesmoke;
+    border: 3px solid #143F6B;
+    border-radius: 15px;
+}
+
+.quiz-info-box {
+    height: 100px;
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #143F6B;
+    letter-spacing: 2px;
+    text-align: center;
+    border-radius: 10px;
+    color: whitesmoke;
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.quizinfo-head {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #FEB139;
+}
+
+.quizinfo-text {
+    margin-bottom: 10px;
+}
+
+.quiz-container {
+    display: grid;
+    width: 75%;
+    grid-template-columns: 33% 33% 33%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 7px solid #143F6B;
+    background-color: #FEB139;
+}
+
+.quiz-topic {
+    background-color: whitesmoke;
+    color: #143F6B;
+    border: 2px solid #143F6B;
+    text-align: center;
+    padding: 25px;
+    font-size: 20px;
 }
