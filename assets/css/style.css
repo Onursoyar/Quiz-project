@@ -389,8 +389,8 @@ footer {
 
 .quiz-container {
     display: grid;
-    width: 75%;
-    grid-template-columns: 33% 33% 33%;
+    width: 80%;
+    grid-template-columns: 50% 50%;
     margin: 0 auto;
     padding: 10px;
     border: 7px solid #143F6B;
@@ -400,8 +400,9 @@ footer {
 .quiz-topic {
     background-color: whitesmoke;
     color: #143F6B;
+    margin: 3px;
     border: 2px solid #143F6B;
     text-align: center;
     padding: 25px;
-    font-size: 20px;
+    font-size: 25px;
 }
